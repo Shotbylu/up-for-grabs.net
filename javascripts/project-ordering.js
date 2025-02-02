@@ -19,7 +19,7 @@
 
 // required for loading into a NodeJS context
 if (typeof define !== 'function') {
-  var define = require('amdefine')(module);
+  const define = require('amdefine')(module);
 }
 
 define(['underscore'], (/** @type {import('underscore')} */ _) => {
